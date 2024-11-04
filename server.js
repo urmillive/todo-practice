@@ -1,7 +1,6 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const userRouter = require('./routes/user.route');
-
+import express from 'express';
+import bodyParser from 'body-parser';
+import userRouter from './routes/user.route.js';
 const app = express();
 
 app.use(bodyParser.json());

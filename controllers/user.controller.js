@@ -1,7 +1,12 @@
-const User = require('../models/user.model');
+import User from '../models/user.model.js';
 
-const getUser = (req, res) => {
+export const getUser = (req, res) => {
     res.send('Get user')
 };
 
-module.exports = { getUser }; 
+export const loginUser = (req, res) => {
+    res.send('Get user')
+};
+export const registerUser = (req, res) => {
+    res.send('Get user')
+};
